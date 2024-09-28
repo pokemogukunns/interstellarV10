@@ -45,7 +45,7 @@
 
 #### Replit Deploymentはどうなりましたか？
 
-2024年1月1日現在、リプリットは [もはや無料ではなくなった。](https://blog.replit.com/hosting-changes) 代わりにGitHub Codespacesを試してください。
+2024年1月1日現在、リプリットは <a herf="https://blog.replit.com/hosting-changes">もはや無料ではなくなった。</a>代わりにGitHub Codespacesを試してください。
 
 ### GitHub コードスペース
 
@@ -66,7 +66,7 @@
 4. 可視性を右クリックして、ポート可視性をパブリックに設定します。<br>
 
 > [!チップ!]
-> 問題が発生した場合は、[Discord](https://discord.gg/interstellar)で個別のサポートを受けることを躊躇しないでください。
+> 問題が発生した場合は、<a herf="https://discord.gg/interstellar">Discord</a>で個別のサポートを受けることを躊躇しないでください。
 
 ## 問題を報告する
 
