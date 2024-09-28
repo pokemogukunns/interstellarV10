@@ -1,17 +1,20 @@
 <div align="center">
     <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
-<p>2023年以来、800万人以上のユーザーにサービスを提供しています。<p>
+<p>2023年以来、800万人以上のユーザーにサービスを提供しています。<p><br>
 <p>Interstellarは、クリーンで洗練されたUIと使いやすいメニューを備えたWebプロキシです。私たちの目標は、すべての人に最高のユーザーエクスペリエンスを提供することです。</p>
 </div>
-
+<br>
 <a herf="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2">プレビュー</a>
+<br>
 
-> [!IMPORTANT]
+> **重要**
 > このプロジェクトをフォークする場合は、元のリポジトリで星を与えることを検討してください！
+<br>
 
-**Join Our [Discord Community](https://discord.gg/interstellar) for support, more links, and an active community!**
+**参加する <a herf="https://discord.gg/interstellar">Discord</a>サポート、より多くのリンク、そして活発なコミュニティのために！**
+<br>
 
-## Features
+## 特徴
 
 <div align="center">
 <br>
@@ -22,61 +25,67 @@
 |   Password Protection    |     Themes      |   GeForce NOW support   |<br>
 
 </div>
+<br>
 
-## Deployment
+## 展開
 
-> [!IMPORTANT]
+> **重要!**
 > Netlify、Cloudflare Pages、GitHub Pagesなどの静的Webホストに**展開することができません**。<br>
 ### サーバーの展開<br>
 サーバーでこれらのコマンドを実行する必要があります。**↓**
-`git clone https://github.com/InterstellarNetwork/interstellar`  
-`cd interstellar`  
-`npm install`  
-`npm start`
+`git clone https://github.com/InterstellarNetwork/interstellar`  <br>
+`cd interstellar`  <br>
+`npm install`  <br>
+`npm start`<br>
 
-### Updating
-
-`cd interstellar`  
+### 更新中
+<br>
+`cd interstellar`  <br>
 `git pull --force --allow-unrelated-histories`<br><br>
-### Deployment Alternatives
 
-より多くの展開オプションについては、これ [Discord Server](https://discord.gg/interstellar) に参加してください。インターステラーを展開するさまざまな方法について。
+### 展開の代替
+<br>
+より多くの展開オプションについては、<a herf="https://discord.gg/interstellar">Discord</a> に参加してください。インターステラーを展開するさまざまな方法について説明があります。<br>
 これには、Render/OnRenderに展開する方法が含まれます。
+<br>
 
-#### Replit Deploymentはどうなりましたか？
-
+#### 複製展開はどうなりましたか？
+<br>
 2024年1月1日現在、リプリットは <a herf="https://blog.replit.com/hosting-changes">もはや無料ではなくなった。</a>代わりにGitHub Codespacesを試してください。
+<br>
 
 ### GitHub コードスペース
-
+<br>
 1. まだ作成していない場合は、GitHubアカウントを作成してください。<br>
 2.「コード」（緑色のボタン）をクリックし、「メインでコードスペースを作成」をクリックします。<br>
 3.下部のターミナルに、`pnpm i && pnpm start`を貼り付けます。<br>
 4.「公開する」をクリックして、アプリケーションのポップアップに応答します。<br>
-   > [!重要!]
+
+   **重要**
+   
    > 「公開する」ボタンを実際にクリックしてください。そうしないと、プロキシが正しく機能しません。<br>
 5. ポートタブから展開されたWebサイトにアクセスします。<br>
 6. 同じコードスペースでのその後の使用には、`pnpm start`を実行するだけです。<br>
 
 ### ポップアップがない場合の解決策。
-
+<br>
 1. `pnpm i`を実行し、`pnpm start`の前に、`PORT=8080`の前に、8080を別のポートに置き換えます。例えば、`PORT=6969 pnpm start`。<br>
 2. これが機能しない場合は、`$env:PORT=8080;` を先頭に付けて、8080 を別のポートに置き換えることができます。例えば、`$env:PORT=6969; pnpm start`<br>
 3. [ポート] タブに移動し、[ポートを転送] をクリックし、ポート番号を入力します。<br>
 4. 可視性を右クリックして、ポート可視性をパブリックに設定します。<br>
 
-> [!チップ!]
-> 問題が発生した場合は、<a herf="https://discord.gg/interstellar">Discord</a>で個別のサポートを受けることを躊躇しないでください。
+> 問題が発生した場合は、<a herf="https://discord.gg/interstellar">Discord</a>で個別のサポートを受けることを躊躇しないでください。<br>
 
-## 問題を報告する
+## 問題を報告する<br>
 
 問題が発生した場合は、GitHubで問題を開いてください。すぐに対処します。
-
+<br>
 # クレジット
-
+<br>
 インターステラーに貢献してくれたすべての人々に心から感謝します。
-
-[![貢献者](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
+<br>
+<a herf="https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar">貢献者1</a><br>
+<a herf="https://github.com/InterstellarNetwork/Interstellar/graphs/contributors">貢献者2</a><br>
 
 
 
@@ -92,7 +101,9 @@
 
 
 <br>
-ここからはpokemogukunnの文章
+ここからはpokemogukunnの文章<br>
+## Deployment
+<br>
 1.<a herf="https://github.com/pokemogukunns/interstellarV10">これが</a>ソースコードのページです
 <br>
 ↓renderのデプロイはこちら↓
