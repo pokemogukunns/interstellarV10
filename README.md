@@ -1,5 +1,7 @@
 <div align="center">
+    
     <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
+    
 <p>2023年以来、800万人以上のユーザーにサービスを提供しています。<p><br>
 <p>Interstellarは、クリーンで洗練されたUIと使いやすいメニューを備えたWebプロキシです。私たちの目標は、すべての人に最高のユーザーエクスペリエンスを提供することです。</p>
 </div>
@@ -84,8 +86,9 @@
 <br>
 インターステラーに貢献してくれたすべての人々に心から感謝します。
 <br>
-<a herf="https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar">貢献者1</a><br>
-<a herf="https://github.com/InterstellarNetwork/Interstellar/graphs/contributors">貢献者2</a><br>
+<img alt="貢献者1" src="https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar"><br>
+<img alt="貢献者2" src="https://github.com/InterstellarNetwork/Interstellar/graphs/contributors"><br>
+
 
 
 
