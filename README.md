@@ -138,4 +138,11 @@
 <img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg">
 </a>
 <br>
+<img src="https://pokemogukunns.github.io/interstellarV10/ru-runo-img.png"><br>
+その後、ターミナルに、<br>
+
+pnpm i && pnpm start
+
+<br>を貼り付け、エンターキーを2回押す。<br>
+するとできる<br>
 以上。
