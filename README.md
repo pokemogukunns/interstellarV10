@@ -1,36 +1,34 @@
 <div align="center">
     <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
-    <p>Serving over 8+ million users since 2023.<p>
-    <p>Interstellar is a web proxy with a Clean and Sleek UI and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
+<p>2023年以来、800万人以上のユーザーにサービスを提供しています。<p>
+<p>Interstellarは、クリーンで洗練されたUIと使いやすいメニューを備えたWebプロキシです。私たちの目標は、すべての人に最高のユーザーエクスペリエンスを提供することです。</p>
 </div>
 
 ![inpreview](https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2)
 
 > [!IMPORTANT]
-> If you fork this project, consider giving it a star in the original repository!
+> このプロジェクトをフォークする場合は、元のリポジトリで星を与えることを検討してください！
 
 **Join Our [Discord Community](https://discord.gg/interstellar) for support, more links, and an active community!**
 
 ## Features
 
 <div align="center">
-
-| Wide Collection of Games |  Tab Cloaking   | Wide collection of Apps |
-| :----------------------: | :-------------: | :---------------------: |
-|   About:Blank Cloaking   |   Fast Speeds   |   Built in Tab system   |
-|         Clean UI         | Inspect Element |     Now.gg support      |
-|   Password Protection    |     Themes      |   GeForce NOW support   |
+<br>
+| Wide Collection of Games |  Tab Cloaking   | Wide collection of Apps |<br>
+| :----------------------: | :-------------: | :---------------------: |<br>
+|   About:Blank Cloaking   |   Fast Speeds   |   Built in Tab system   |<br>
+|         Clean UI         | Inspect Element |     Now.gg support      |<br>
+|   Password Protection    |     Themes      |   GeForce NOW support   |<br>
 
 </div>
 
 ## Deployment
 
 > [!IMPORTANT]
-> You **cannot** deploy to static web hosts, including Netlify, Cloudflare Pages, and GitHub Pages.
-
-### Server Deployment
-
-You must run these commands on your server:  
+> Netlify、Cloudflare Pages、GitHub Pagesなどの静的Webホストに**展開することができません**。<br>
+### サーバーの展開<br>
+サーバーでこれらのコマンドを実行する必要があります。**↓**
 `git clone https://github.com/InterstellarNetwork/interstellar`  
 `cd interstellar`  
 `npm install`  
@@ -39,51 +37,46 @@ You must run these commands on your server:
 ### Updating
 
 `cd interstellar`  
-`git pull --force --allow-unrelated-histories`
-
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/interstellarnetwork/interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/interstellarnetwork/Interstellar"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
-
+`git pull --force --allow-unrelated-histories`<br><br>
 ### Deployment Alternatives
 
-For more deployment options, join our [Discord Server](https://discord.gg/interstellar) for various ways to deploy Interstellar.
-This includes methods of deploying to Render/OnRender.
+より多くの展開オプションについては、これ [Discord Server](https://discord.gg/interstellar) に参加してください。インターステラーを展開するさまざまな方法について。
+これには、Render/OnRenderに展開する方法が含まれます。
 
-#### What happened to Replit Deployment?
+#### Replit Deploymentはどうなりましたか？
 
-As of January 1st, 2024, Replit is [no longer free](https://blog.replit.com/hosting-changes). Try GitHub Codespaces instead.
+2024年1月1日現在、リプリットは [もはや無料ではなくなった。](https://blog.replit.com/hosting-changes) 代わりにGitHub Codespacesを試してください。
 
-### GitHub Codespaces
+### GitHub コードスペース
 
-1. Create a GitHub account if you haven't already.
-2. Click "Code" (green button) and then "Create Codespace on main."
-3. In the terminal at the bottom, paste `pnpm i && pnpm start`.
-4. Respond to the application popup by clicking "Make public."
-   > [!IMPORTANT]
-   > Make sure you actually click the "Make public." button, or the proxy won't function properly.
-5. Access the deployed website from the ports tab.
-6. For subsequent uses in the same codespace, just run `pnpm start`
+1. まだ作成していない場合は、GitHubアカウントを作成してください。<br>
+2.「コード」（緑色のボタン）をクリックし、「メインでコードスペースを作成」をクリックします。<br>
+3.下部のターミナルに、`pnpm i && pnpm start`を貼り付けます。<br>
+4.「公開する」をクリックして、アプリケーションのポップアップに応答します。<br>
+   > [!重要!]
+   > 「公開する」ボタンを実際にクリックしてください。そうしないと、プロキシが正しく機能しません。<br>
+5. ポートタブから展開されたWebサイトにアクセスします。<br>
+6. 同じコードスペースでのその後の使用には、`pnpm start`を実行するだけです。<br>
 
-### Solution for if there is no popup.
+### ポップアップがない場合の解決策。
 
-1. Run `pnpm i`, and before `pnpm start`, prepend `PORT=8080`, replacing 8080 with another port. For example, `PORT=6969 pnpm start`.
-2. If this does not work then you can prepend `$env:PORT=8080;`, replacing 8080 with another port. For example, `$env:PORT=6969; pnpm start`
-3. Go to the ports tab, Click Forward A Port, And type the port number.
-4. Right-click Visibility and set Port Visibility to Public.
+1. `pnpm i`を実行し、`pnpm start`の前に、`PORT=8080`の前に、8080を別のポートに置き換えます。例えば、`PORT=6969 pnpm start`。<br>
+2. これが機能しない場合は、`$env:PORT=8080;` を先頭に付けて、8080 を別のポートに置き換えることができます。例えば、`$env:PORT=6969; pnpm start`<br>
+3. [ポート] タブに移動し、[ポートを転送] をクリックし、ポート番号を入力します。<br>
+4. 可視性を右クリックして、ポート可視性をパブリックに設定します。<br>
 
-> [!TIP]
-> If you're having trouble, don't hesitate reach out to us on [Discord](https://discord.gg/interstellar) for personalized support.
+> [!チップ!]
+> 問題が発生した場合は、[Discord](https://discord.gg/interstellar)で個別のサポートを受けることを躊躇しないでください。
 
-## Report Issues
+## 問題を報告する
 
-If you encounter problems, open an issue on GitHub, and we'll address it promptly.
+問題が発生した場合は、GitHubで問題を開いてください。すぐに対処します。
 
-# Credits
+# クレジット
 
-A huge thank you to all of the people who have contributed to Interstellar.
+インターステラーに貢献してくれたすべての人々に心から感謝します。
 
-[![Contributors](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
+[![貢献者](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
 
 
 
@@ -127,7 +120,7 @@ A huge thank you to all of the people who have contributed to Interstellar.
 <br>
 ↓cyclicのデプロイはこちら↓
 <br>
-<a target="_blank" href="https://github.com/pokemogukunns/interstellarV10">
+<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/pokemogukunns/interstellarV10">
 <img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg">
 </a>
 <br>
