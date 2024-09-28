@@ -9,7 +9,8 @@
 <a herf="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2">プレビュー</a>
 <br>
 
-> **重要**
+> **重要**<br>
+> 
 > このプロジェクトをフォークする場合は、元のリポジトリで星を与えることを検討してください！
 <br>
 
@@ -18,7 +19,6 @@
 
 ## 特徴
 
-<div align="center">
 <br>
 | Wide Collection of Games |  Tab Cloaking   | Wide collection of Apps |<br>
 | :----------------------: | :-------------: | :---------------------: |<br>
@@ -26,7 +26,6 @@
 |         Clean UI         | Inspect Element |     Now.gg support      |<br>
 |   Password Protection    |     Themes      |   GeForce NOW support   |<br>
 
-</div>
 <br>
 
 ## 展開
@@ -34,7 +33,7 @@
 > **重要!**
 > Netlify、Cloudflare Pages、GitHub Pagesなどの静的Webホストに**展開することができません**。<br>
 ### サーバーの展開<br>
-サーバーでこれらのコマンドを実行する必要があります。**↓**
+サーバーでこれらのコマンドを実行する必要があります。**↓**<br>
 `git clone https://github.com/InterstellarNetwork/interstellar`  <br>
 `cd interstellar`  <br>
 `npm install`  <br>
