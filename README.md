@@ -4,7 +4,7 @@
 <p>Interstellarは、クリーンで洗練されたUIと使いやすいメニューを備えたWebプロキシです。私たちの目標は、すべての人に最高のユーザーエクスペリエンスを提供することです。</p>
 </div>
 
-![inpreview](https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2)
+<a herf="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2">プレビュー</a>
 
 > [!IMPORTANT]
 > このプロジェクトをフォークする場合は、元のリポジトリで星を与えることを検討してください！
