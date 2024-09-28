@@ -84,3 +84,50 @@ If you encounter problems, open an issue on GitHub, and we'll address it promptl
 A huge thank you to all of the people who have contributed to Interstellar.
 
 [![Contributors](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ここからはpokemogukunnの文章
+1.<a herf="https://github.com/pokemogukunns/interstellarV10">これが</a>ソースコードのページです
+↓renderのデプロイはこちら↓
+
+<a href="https://render.com/deploy?repo=https://github.com/pokemogukunns/interstellarV10">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
+
+↓vercelのデプロイはこちら↓
+
+<a target="_blank" href="https://vercel.com/new/clone?repository-url=github.com/pokemogukunns/interstellarV10">
+<img alt="Deploy to Vercel" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/vercel.svg"></a>
+
+↓herokuのデプロイはこちら↓
+
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/pokemogukunns/interstellarV10">
+<img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg">
+</a>
+
+↓koyedのデプロイはこちら↓
+
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/pokemogukunns/interstellarV10">
+<img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg">
+</a>
+
+↓cyclicのデプロイはこちら↓
+
+<a target="_blank" href="https://github.com/pokemogukunns/interstellarV10">
+<img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg">
+</a>
+
+以上。
