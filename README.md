@@ -1,6 +1,6 @@
 <div align="center">
     
-<img alt="ホーム画面" src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
+<img alt="ホーム画面" src="https://pokemogukunns.github.io/IMG_0108.png">
     
 <p>2023年以来、800万人以上のユーザーにサービスを提供しています。<p><br>
 <p>Interstellarは、クリーンで洗練されたUIと使いやすいメニューを備えたWebプロキシです。私たちの目標は、すべての人に最高のユーザーエクスペリエンスを提供することです。</p>
