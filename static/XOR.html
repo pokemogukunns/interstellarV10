@@ -37,11 +37,39 @@
         <option value="mail">Mail</option>
       </select>
     </div>
-    <div class="pinned-apps"></div>
-    <div class="container-apps"></div>
+ <label for="input-link">エンコードしたいリンクを入力してください:</label>
+    <input type="text" id="input-link" placeholder="リンクを入力">
+    <button onclick="encodeLink()">エンコード</button>
+
+    <p>エンコードされたリンク:</p>
+    <p id="encoded-link"></p>
+
+    <script>
+        function xorEncode(input) {
+            const key = [
+                0x00, 0x02, 0x00, 0x02, 0x00, 0x02, 0x00, 0x02, 0x00, 0x02, 0x00, 0x02,
+                0x00, 0x02, 0x00, 0x02, 0x00, 0x02, 0x00, 0x02, 0x00, 0x02
+            ];
+            let output = '';
+            for (let i = 0; i < input.length; i++) {
+                output += String.fromCharCode(input.charCodeAt(i) ^ key[i % key.length]);
+            }
+            return output;
+        }
+
+        function encodeLink() {
+            const userLink = document.getElementById("input-link").value;
+            if (userLink) {
+                const encodedLink = xorEncode(userLink);
+                document.getElementById("encoded-link").textContent = encodedLink;
+            } else {
+                document.getElementById("encoded-link").textContent = "リンクが入力されていません。";
+            }
+        }
+    </script>
     <script src="https://pokemogukunns.github.io/interstellarV10/static/assets/scripts/main.js?v=30"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
-    <!-- DO NOT REMOVE-->
+    <!-- 削除しないでください-->
     <script>
       window.dataLayer = window.dataLayer || []
       function gtag() {
