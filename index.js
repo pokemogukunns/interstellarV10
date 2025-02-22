@@ -38,6 +38,7 @@ if (config.routes !== false) {
     { path: '/p', file: 'go.html' },
     { path: '/', file: 'index.html' },
     { path: '/tos', file: 'tos.html' },
+    { path: '/enc', file: 'XOR.html' },
   ]
 
   routes.forEach((route) => {
